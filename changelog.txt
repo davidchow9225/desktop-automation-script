@@ -1,0 +1,18 @@
+------------Master Script 1.0 Changelog------------
+01/31/2021
+General:
+-Created local script libraries for functions and hotkeys.
+-Reduced Initialization Message Box delay from 5 seconds to 3.
+
+Functions.ahk:
+-Improved Pin function; uses subroutines and changes the pinned window before affecting a new one.
+
+Hotkeys.ahk:
+-Win+P now uses the pinWindow() function.
+	Hotkey.Discord.ahk:
+	-Discord Force Close uses ALT+F4 instead of WinKill.
+	Hotkey.Notepad++.ahk:
+	-Notepad++ hotkeys added for opening Window Spy and refreshing Master Script.
+
+ToDo:
+-Make hotkeys in hotkey.notepad++.ahk check for the respective windows before opening new ones.
