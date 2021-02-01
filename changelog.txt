@@ -15,5 +15,4 @@ Hotkeys.ahk:
 	-Notepad++ hotkeys added for opening Window Spy and refreshing Master Script.
 
 ToDo:
--Write ReadMe.
 -Make hotkeys in hotkey.notepad++.ahk check for the respective windows before opening new ones.
