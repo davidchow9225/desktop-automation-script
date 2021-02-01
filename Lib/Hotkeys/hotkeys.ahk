@@ -1,10 +1,7 @@
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-
 ;Includes hotkey scripts that are dependent on the active window.
-#Include %A_ScriptDir%\lib\functions.ahk
-#Include %A_ScriptDir%\lib\hotkey.discord.ahk
-#Include %A_ScriptDir%\lib\hotkey.notepad++.ahk
+#Include Lib\functions.ahk
+#Include Lib\Hotkeys\hotkey.discord.ahk
+#Include Lib\Hotkeys\hotkey.notepad++.ahk
 
 
 ;Hotkeys

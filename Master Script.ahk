@@ -1,4 +1,4 @@
-#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
@@ -9,5 +9,5 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 MsgBox,0,%A_ScriptName% Initialized!,Your master script has started.,3
 
 ;Includes scripts from the Master Script's library.
-#Include %A_ScriptDir%\lib\functions.ahk
-#Include %A_ScriptDir%\lib\hotkeys.ahk
+#Include Lib\functions.ahk
+#Include Lib\Hotkeys\hotkeys.ahk
