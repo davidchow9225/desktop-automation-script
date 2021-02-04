@@ -2,15 +2,15 @@
 #Include Lib\functions.ahk
 #Include Lib\Hotkeys\hotkey.discord.ahk
 #Include Lib\Hotkeys\hotkey.notepad++.ahk
+;------------Hotkeys------------
 
-
-;Hotkeys
+;Windows Key Hotkeys
 <#p:: ;Pin Script
 	pinWindow()
-	return
+	Return
 <#g:: ;Games Folder Hotkey
 	Run, "C:\Users\%A_UserName%\Games"
 	Return
 	<^#g::
-		Send <#g	;Microsoft Game Bar
+		Run https://github.com/davidchow9225/Master-Script	;Opens GitHub Repo
 		Return

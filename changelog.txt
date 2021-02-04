@@ -1,11 +1,15 @@
 ------------Master Script 1.0 Changelog------------
-02/01/2021
+02/03/2021
 General:
--Moved hotkey scripts into their own subdirectory within the script library.
+-Added script suspension (Win+F3) and termination (Win+F4) hotkeys.
+
+Functions.ahk:
+-Added suspendScript() Function
+-Drafted runOnce() Function (Not Implemented)
 
 Hotkeys.ahk:
-	Hotkey.Discord.ahk:
-	-Discord Force Close uses WinWaitClose instead of the Sleep command.
+-Ctrl+Win+G now opens the GitHub Repository for Master Script.ahk
 
 ToDo:
 -Make hotkeys in hotkey.notepad++.ahk check for the respective windows before opening new ones.
+-Store game directories in an array; Make game-specific script driver.

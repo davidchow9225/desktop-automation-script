@@ -11,3 +11,13 @@ MsgBox,0,%A_ScriptName% Initialized!,Your master script has started.,3
 ;Includes scripts from the Master Script's library.
 #Include Lib\functions.ahk
 #Include Lib\Hotkeys\hotkeys.ahk
+
+
+;Suspend & Kill Script Hotkeys
+<#F3::	;Suspend Script
+	Suspend, permit
+	suspendScript()
+	Return
+<#F4::	;Kill Script
+	MsgBox,,%A_ScriptName% Terminated,%A_ScriptName% has been Terminated.,5
+	ExitApp

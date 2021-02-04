@@ -52,4 +52,30 @@ UnpinWindow:
 	Return
 }
 
+suspendScript()
+{
+	Suspend, Toggle
+	If %A_IsSuspended%
+	{
+		MsgBox,,%A_ScriptName% Suspended,%A_ScriptName% has been suspended.
+	}
+	Else
+	{
+		MsgBox,,%A_ScriptName% Suspended,%A_ScriptName% is no longer suspended.
+	}
+	Return
+}
+
 ;Opens the window
+/* runOnce(target)
+{
+	If !WinExist(%target%)
+	{
+		Run, %target%
+	}
+	Else
+	{
+		WinActivate, %target%
+	}
+    Return
+} */

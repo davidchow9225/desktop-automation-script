@@ -1,7 +1,7 @@
 #IfWinActive ahk_exe notepad++.exe
 
 <#h:: ;Brings up AutoHotKey Documentation
-	Run "%A_ProgramFiles%\AutoHotkey\AutoHotKey.exe"
+	Run "%A_ScriptDir%\AutoHotKey\AutoHotKey.exe"
 	Return
 	
 <#s:: ;Window Spy Hotkey
