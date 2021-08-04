@@ -1,5 +1,5 @@
-# Master-Script
-## About Master Script
+# Desktop Automation Script
+## About Desktop Automation Script
 Master Script is an AutoHotKey script written for my desktop.
 The main .ahk file serves as a script driver with its own library of functions and hotkeys.
 
@@ -14,4 +14,4 @@ The main .ahk file serves as a script driver with its own library of functions a
 ### Notepad++ Hotkeys:
   * **Win+H :** Opens AutoHotKey Documentation
   * **Win+S :** Runs AutoHotKey *Window Spy* Script
-  * **Win+R :** Reloads *Master Script.ahk*
+  * **Win+R :** Reloads *desktop_animation_script.ahk*
