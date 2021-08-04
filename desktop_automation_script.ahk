@@ -8,7 +8,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;A pop-up Message Box notifying the user that the script has started.
 MsgBox,0,%A_ScriptName% Initialized!,Your master script has started.,3
 
-;Includes scripts from the Master Script's library.
+;Includes scripts from the Desktop Automation Script's library.
 #Include Lib\functions.ahk
 #Include Lib\Hotkeys\hotkeys.ahk
 
